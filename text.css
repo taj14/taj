@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #note {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc8c893;
+    resize: vertical;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .note {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .note-text {
+    flex-grow: 1;
+  }
+  
+ 
+  .note {
+    padding: 10px;
+    border: 1px solid #cccccc2a;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f013; /* لون رمادي فاتح */
+  }
+  
